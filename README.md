@@ -11,10 +11,10 @@ Install ollama
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-Install and serve model gemma3:4b model, that is a vision and prompt model freely available
-
+Install and serve model gemma3:12b model, that is a vision and prompt model freely available
+run in separate terminal and keep it serving while script runs
 ```
-ollama run gemma3:4b &
+ollama run gemma3:12b &
 ```
 
 Python libraries
